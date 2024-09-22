@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#menusuperior{
+    background-color: #383838;
+    width: 100%;
+    color:aliceblue ;
+    padding: 1px;
+    box-sizing: border-box;
+    
+}
+
+#titulo-menusuperior{
+    font-size: 60px;
+    margin: 206px 0px 20px 62px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+
+}
+
+#texto-menusuperior{
+    margin: 0px 0px 149px 62px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#barra-bignumbers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    background-color: #dbdfc5;
+    width: 100vw;
+    padding: 1px;
+    box-sizing: border-box;
+    
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.numeros{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    margin-left: 99px;
+    margin-top: 96px;
+    padding-bottom: 5px;
+    
+}
+
+.texto-bignumbers{
+    margin-left: 99px;
+    margin-bottom: 66px;
+}
+
+#corpodosite{
+    margin-top: 82px;
+    margin-left: 100px;
+    margin-bottom: 92px;
+    display: flex;
+    
+}
+
+.titulo-corpodosite{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.texto-corpodosite{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#imagem{
+margin-left:  100px;
+}
+
+#container-texto{
+    margin-top: 200px;
+   
+}
+
+#formulario{
+    background-color: #383838;
+    width: 100%;
+    padding: 1px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#titulo-formulario{
+    margin-top: 87PX;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 48px;
+    color: #FFF;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    background: #FFF;
+    padding-left: 20px;
+    margin-bottom: 62px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    color: 	#383838;
+}
+
+button{
+    width: 286px;
+    height: 74px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #C07212;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    color: #FFF;
+    margin-bottom: 87px;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #9465306b;
+    transition-duration: 0.5s;
+}
+
